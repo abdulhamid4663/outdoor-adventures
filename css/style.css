@@ -23,6 +23,7 @@ hr {
     margin:auto;
     display: inline-block;
 	border: 0.1px solid #ff7034;
+    opacity: 1.0;
 }
 .banner-content h1 {
     font-size: 48px;
@@ -81,6 +82,7 @@ hr {
 .quote-section span {
     font-size: 17px;
     font-family: cursive, sans-serif;
+    color: #00000082;
 }
 .quote-section h6 {
     font-weight: 700;
