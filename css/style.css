@@ -157,11 +157,11 @@ hr {
 }
 .second-banner .container {
 	margin: auto;
+    padding: 100px 45px;
 }
 .second-banner h1 {
     font-size: 49px;
     font-weight: 700;
-    padding: 26px 0 0;
     color: #333;
 }
 .second-banner hr {
@@ -275,6 +275,58 @@ footer span {
 	padding: 0 0 35px;
 }
 
-
+@media screen and (max-width: 991px) {
+    .first-image-section .container {
+        padding: 0px 35px;
+    }
+    .second-banner .col-7 {
+        display: none;
+    }
+    .second-banner .col-5 {
+        width: 100%;
+        text-align: center;
+    }
+    .second-banner h1 {
+        font-size: 39px;
+        color:#fff;
+    }
+    .last-section .container {
+    width: 80%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .first-image-section .container {
+        padding: 0px 0px;
+    }
+    .last-section .col-5 {
+        width: 100%;
+        text-align: center;
+    }
+    .last-section .col-7 {
+        width: 100%;
+        padding: 40px 58px 0;
+    }
+}
+@media screen and (max-width: 575px) {
+    .first-image-section .box {
+        padding: 0px 50px 27px;
+    }
+    .col-6 {
+        width: 100%;
+    }
+    .last-section .container {
+        width: 100%;
+    }
+    .events {
+        padding: 90px 0 40px;
+    }
+    .banner-content {
+        padding: 100px 0;
+    }
+    .span1, .span2 {
+        font-size: 11px;
+        color: #ffffffad;
+    }
+}
 
 
