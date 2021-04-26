@@ -66,6 +66,7 @@ hr {
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     transition: 0.3s;
+    text-align: center;
 }
 .nav-link:hover {
 	border:2px solid white ;
