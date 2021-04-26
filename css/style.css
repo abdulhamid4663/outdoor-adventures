@@ -296,9 +296,6 @@ footer span {
     }
 }
 @media screen and (max-width: 767px) {
-    .first-image-section .container {
-        padding: 0px 0px;
-    }
     .last-section .col-5 {
         width: 100%;
         text-align: center;
